@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="room bookingin kerala,taxi booking in kerala,camping in kerala,best sightseeing places in kerala, escape tourism in kerala,escape tourism,booking kerala tour package,tour package in kerala,">
+  <meta name="discription" content="sightseeing places list with image,and off road jeep safari details and price and room booking camping,taxi rates and booking home page is this, this is will use navigate to tour packages pre plans ">
+  <title>Escape To Wonder Kerala</title>
+  <link rel="stylesheet" href="index.css" t/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <nav>
+    <div class="back">
+      <section class="icon">
+        <div class="round" tabindex="0">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="menu-items">
+           
+            <a class="navlis" href="#about">• ABOUT</a>
+            <a class="navlis" href="/taxi/taxi.html">• TAXI</a>
+            <a class="navlis"href="/Places to Visit /weppage.html">• SIGHTSEEING PLACES</a>
+            <a class="navlis"href="#">• JEEP SAFARI</a>
+            <a class="navlis"href="#">• ROOMS</a>
+            <a class="navlis"href="#">• CAMPING</a>
+            
+          </div>
+        </div>
+      </section>
+    </div>
+  </nav>
+  
+  <section class="content">
+    <h1>Escape Tourism</h1>
+    <p>We are doing taxi services packages and round trip packages, pickup and drop, off-road jeep Safari, camping and room booking in munnar reasonable price in Kerala and tamilnadu.Our main branch is located in munnar</p>
+    <hr />
+    <h2 class="check-availability">Check Availability</h2>
+      
+    <div class="dash-board">
+      <div class="switch">
+        <img class="png" src="/pngs/sightseeing places 0.png" alt="" />
+        <a class="anchor"href="/Places to Visit /weppage.html">SIGHTSEENS</a>
+      </div>        
+      <div class="switch">
+        <img class="png"src="/pngs/taxi2.png" alt="" />
+        <a class="anchor"href="/taxi/taxi.html">TAXI</a>
+      </div>
+      <div class="switch">
+        <img class="png"src="/pngs/jeep.png" alt="" />
+        <a class="anchor"href="#">JEEPSAFARI</a>
+      </div>
+      <div class="switch">
+        <img class="png"src="/pngs/tent.png" alt="" />
+        <a class="anchor"href="#">CAMP</a>
+      </div>
+      <div class="switch">
+        <img class="room"src="/pngs/rooms.png" alt="" />
+        <a class="anchor"href="#">ROOMS</a>
+      </div>
+    </div>
+      
+    <div class="display">
+      <div class="display-box">
+        <img class="display-img" src="/pngs/sightseen places Kerala .png" alt="" />
+        <a class="display-click" href="/Places to Visit /weppage.html">CHECK NOW</a>
+      </div>        
+      <div class="display-box">
+        <img class="display-img"src="/pngs/taxi1.png" alt="" />
+        <a class="display-click"href="#">CHECK NOW</a>
+      </div>
+      <div class="display-box">
+        <img class="display-img" src="/pngs/jeep1.png" alt="" />
+        <a class="display-click" href="#">CHECK NOW</a>
+      </div>
+      <div class="display-box">
+        <img class="display-img" src="/pngs/camping munnar.png" alt="" />
+        <a class="display-click" href="#">CHECK NOW</a>
+      </div>
+      <div class="display-box">
+        <img class="display-img" src="/pngs/rooms munnar.png" alt="" />
+        <a class="display-click" href="#">CHECK NOW</a>
+      </div>      
+    </div>
+    <div class="book-now">
+      <h2 class="toggle-header">BOOK NOW</h2>
+      <div class="toggle-content">
+        <form class="form"action="/submit" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+          
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
+          
+          <label for="service">Preferred Service:</label>
+              <select id="service" name="service" onchange="toggleFields()">
+                <option value="">--Select a Service--</option>
+                <option value="Kolukkumalai">Kolukkumalai</option>
+                <option value="pickup & drop">Pickup & Drop</option>
+                <option value="tour package">Tour Package</option>
+                <option value="Package taxi">Package taxi</option>
+                <option value="sightseein">Sightseen</option>
+                <option value="jeep-safari">Jeep Safari</option>
+              </select><br><br>
+              
+          <div id="additional-fields" class="hidden">
+            <label for="pickup-date">Pickup Date:</label>
+            <input type="date" id="pickup-date" name="pickup date" required><br><br>
+          
+            <label for="pickup-time">Pickup Time:</label>
+            <input type="time" id="pickup-time" name="pickup time" required><br><br>
+          
+            <label for="drop-date">Drop Date:</label>
+            <input type="date" id="drop-date" name="drop date" required><br><br>
+                        
+          </div>
+
+          <input type="submit" value="Submit" id="submit">
+        </form>
+      </div>
+    </div>
+    <hr />
+  </section>
+  <script src="index.js"></script>
+  
+  <footer id="footer">
+    <div class="bottom">
+      <h3 class="toggle-header">ABOUT US</h3>
+      <div class="toggle-content">
+        <h4>how to plan for kerala trip?</h4>
+        <h4>how to book jeep for kolukkumalai jeep safari?</h4>
+        <span class="hidden-keyword">booking package for kerala tour </span>
+        <span class="hidden-keyword">
+          famaly tour package 
+        </span>
+        <span class="hidden-keyword">kerala trip planer
+        </span>
+      </div>
+      <p id="about">(We are doing taxi service and off road jeep safari in tourism around kerala and tamilnadu)</p>
+      <h3 id="contact">Contact us</h3>
+      <div class="Box">
+        <p>(24hours services for enquiry)</p>
+        <div id="buttons">
+          <a href="https://wa.me/916282065450?text=Hello%20I%20want%20to%20contact%20you" class="whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+          <h3 id="or">or</h3>
+          <a href="tel:+91 6282065450" class="call">
+            <img id="calls" src="/phone-call (5).png">
+            call
+          </a>
+        </div>
+        <h2 id="phno">+91 6282065450</h2>
+        <h4 id="email">maharajachinnakanal@gmail.com</h4>
+        <p>(just click to know taxi,jeep,room,tent stay rent prices details and sightseening package rates and cost) <img class="money" src="/Places to Visit /MUNNAR/money-576443_640.png" alt="munnar tour package price list" /></p>
+        <h3 id="book">Book me for</h3>
+        <div class="icon-box">
+          <img src="/pngs/taxi2.png" alt="munnar taxi booking" />
+          <button class="button">
+            TAXI</button>
+        </div>
+        <div class="icon-box">
+          <img class="jeep" src="/pngs/jeep.png" alt="best jeep safari in munnar" />
+          <button class="button">JEEP SAFARI</button>
+        </div>
+        <div class="icon-box">
+          <img src="/pngs/rooms.png" alt="room booking munnar" />
+          <button class="button">ROOMS & CAMPING</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="office">
+      <h3 id="o">OFFICE</h3>
+      <P id="op">Our office placed in (MUNNAR CHINNAKANAL) near to CLUPMAHINDRA & STERLINK suriyanlli </P>
+    </div>
+    <div class="vehickles">
+      <h3 id="v">VEHICLES</h3>
+      <p id="vp">
+        (we are providing Innova and Crysta & Travler and all types sedan like Etios,Verito,Swift for tour package and pickup & drop)
+      </p>
+      <div class="img">
+        <div class="car" id="crysta"></div>
+        <div class="car" id="innova"></div>
+        <div class="car" id="ertiga"></div>
+        <div class="car" id="travaler"></div>
+        <div class="car" id="etios"></div>
+        <div class="car" id="verito"></div>
+        <div class="car" id="swift"></div>
+      </div>
+    </div>
+  </footer>
+  <script>
+          document.querySelectorAll('.toggle-header').forEach(function(header) {
+        header.addEventListener('click', function() {
+          const content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      });
+
+      function toggleFields() {
+        var service = document.getElementById("service").value;
+        var additionalFields = document.getElementById("additional-fields");
+
+        if (service) {
+          additionalFields.classList.remove("hidden");
+        } else {
+          additionalFields.classList.add("hidden");
+        }
+      }
+  </script>
+</body>
+
+</html>
